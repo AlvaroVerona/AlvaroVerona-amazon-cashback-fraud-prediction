@@ -27,4 +27,7 @@ The project utilizes a Linear Regression model to establish a continuous fraud r
    ```bash
    git clone [https://github.com/AlvaroVerona/amazon-cashback-fraud-prediction.git](https://github.com/AlvaroVerona/amazon-cashback-fraud-prediction.git)
 
+<img width="650" height="572" alt="Screenshot 2026-06-09 at 16 21 06" src="https://github.com/user-attachments/assets/77b7f268-42e3-4aac-8ad5-4540b71525d0" />
+
+
 ## You can visualize the tool and interact with it in the following link: https://varoverona.pythonanywhere.com/
