@@ -1,10 +1,6 @@
 # AlvaroVerona-amazon-cashback-fraud-prediction
 Predictive analytics system for detecting fraud in Amazon cashback programs. Implements a linear regression model to estimate risk scores from transactional features. Deployed on PythonAnywhere with an interactive HTML interface that allows users to adjust input parameters and generate real-time fraud probability predictions.
 
-# Amazon Cashback - Fraud Prediction Model
-
-This project consists of a Machine Learning model designed to detect potential fraud within Amazon's Cashback system. It includes data analysis, model training, and the deployment of a basic web API using Flask.
-
 ## Project Structure
 
 * **`amazon_fraud.py`**: The main Python script containing the logic for data analysis, preprocessing, and training the predictive model.
@@ -16,16 +12,19 @@ This project consists of a Machine Learning model designed to detect potential f
 
 * **Python 3**
 * **Pandas / Openpyxl** (for Excel data handling)
-* **Scikit-Learn** (or the specific library used for your model)
+* **Scikit-Learn** (specifically using `LinearRegression` for risk scoring)
 * **Joblib** (for model serialization and loading)
 * **Flask** (for the web API)
 * **PythonAnywhere** (development environment and hosting)
 
 ## Model Performance
-*(Optional: You can replace this text with a brief statement about your results, for example: "The model identifies anomalous patterns based on variables such as cashback amount, user behavior history, and transaction frequency.")*
+
+The project utilizes a Linear Regression model to establish a continuous fraud risk score based on the dataset's features (such as transaction amounts and cashback metrics). This allows the system to flag transactions that exceed a specific risk threshold.
 
 ## How to Run the API Locally
 
 1. Clone this repository:
    ```bash
    git clone [https://github.com/AlvaroVerona/amazon-cashback-fraud-prediction.git](https://github.com/AlvaroVerona/amazon-cashback-fraud-prediction.git)
+
+## You can visualize the tool and interact with it in the following link: https://varoverona.pythonanywhere.com/predict_form
